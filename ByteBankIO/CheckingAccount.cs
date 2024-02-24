@@ -5,7 +5,7 @@ public class CheckingAccount
     public int Number{ get; }
     public int Agency { get; }
     public double Balance { get; private set; }
-    public Client Principal { get; set; }
+    public Client Holder { get; set; }
 
     public CheckingAccount(int agency, int number)
     {
